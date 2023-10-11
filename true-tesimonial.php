@@ -227,7 +227,7 @@ function twpt_testimonial_loop(){ ?>
 register_activation_hook(__FILE__, 'twpt_plugin_activate');
 add_action('admin_init', 'twpt_plugin_redirect');
 
-function bwpt_plugin_activate() {
+function twpt_plugin_activate() {
     add_option('twpt_plugin_do_activation_redirect', true);
 }
 
